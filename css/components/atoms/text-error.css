@@ -1,0 +1,9 @@
+.text-error {
+    margin: 0;
+    padding: 0;
+    color: var(--color-error);
+    font-size: 1.1rem;
+	font-family: var(--main-font);
+    font-weight: var(--regular);
+    text-align: center;
+}

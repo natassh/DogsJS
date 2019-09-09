@@ -1,0 +1,11 @@
+.form__input-list {
+    border: none;
+    min-width: 12.5rem;
+    min-height: 1.8rem;
+    color: var(--color-text);
+    font-family: var(--main-font);
+    font-weight: var(--regular);
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    padding-left: 1rem;
+}

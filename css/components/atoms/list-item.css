@@ -1,0 +1,4 @@
+#list-photos li {
+    list-style: none;
+    margin: 2rem 2rem;
+}
