@@ -1,18 +1,3 @@
-async function getPhotosDogs() {
-    const breedValue = document.getElementById("dog-selector").value;
-    //console.log(select);
-    if(breedValue === '') {
-        showError();
-        //console.log('funcion error');
-    } else {
-        //queryApi();
-        let dogs = await queryApi();
-        showPhotos(dogs);
-        //console.log({dogs});
-
-    }
-}
-
 function showError() {
     //console.log('funcion error');
     const alertError = document.createElement('p');
@@ -29,16 +14,6 @@ function showError() {
     }, 2000);
 }
 
-function queryApi() {
-    const breedValue = document.getElementById("dog-selector").value;
-    const endPoint = 'https://dog.ceo/api/breed/'+ breedValue +'/images/random/25';
-    //console.log(endPoint);
-    const responsePromise = fetch(endPoint);
-    const dataResponseJsonPromise = responsePromise.then( responseObjectData => responseObjectData.json() );
-    const dogs = dataResponseJsonPromise.then( dataResponse => dataResponse );
-    dataResponseJsonPromise.catch( error => console.log(error) );
-    return dogs;
-}
 
 function showPhotos(photos) {
     document.getElementById("list-photos").innerHTML = '';
@@ -51,10 +26,7 @@ function showPhotos(photos) {
     });
 }
 
-
 export {
-    getPhotosDogs
+    showError,
+    showPhotos
 };
-
-
-

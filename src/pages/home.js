@@ -1,6 +1,6 @@
 
-import { getPhotosDogs } from '../modules/list/list.js';
-import { loadBreedsOptions } from '../modules/data/options-data.js';
+import { getPhotosDogs } from '../modules/dogs/photos/index.js';
+import { loadBreedsOptions } from '../modules/dogs/breeds/index.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     loadBreedsOptions();
