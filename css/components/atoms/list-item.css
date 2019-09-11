@@ -1,4 +1,13 @@
 #list-photos li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     margin: 2rem 2rem;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+#list-photos li img {
+    width: 100%;
 }

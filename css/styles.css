@@ -15,4 +15,5 @@
 @import 'components/molecules/form.css';
 @import 'components/molecules/form-block-content.css';
 @import 'components/molecules/list.css';
+@import 'components/organisms/main-content.css';
 @import 'global/commons.css';
