@@ -1,3 +1,5 @@
+import Carousel from 'https://cdn.pika.dev/marvina-carousel/v1';
+
 function showError() {
     //console.log('funcion error');
     const alertError = document.createElement('p');
@@ -16,13 +18,19 @@ function showError() {
 
 
 function showPhotos(photos) {
-    document.getElementById("list-photos").innerHTML = '';
+    document.querySelector(".list-photos").innerHTML = '';
     photos.message.forEach(photo => {
         let html ='';
         html += `<img src="${photo}"/>`;
-        let li = document.createElement("li"); 
-        li.innerHTML = html;
-        document.getElementById("list-photos").appendChild(li);
+        let figure = document.createElement("figure"); 
+        figure.className = 'mc-carousel-element';
+        figure.innerHTML = html;
+        document.querySelector(".list-photos").appendChild(figure);
+    });
+
+    const carousel = new Carousel({
+        el: '#carousel',
+        minImage: 2
     });
 }
 

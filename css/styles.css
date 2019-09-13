@@ -10,10 +10,12 @@
 @import 'components/atoms/btn-submit.css';
 @import 'components/atoms/list-item.css';
 @import 'components/atoms/text-error.css';
+@import 'components/atoms/title-stack.css';
 @import 'components/molecules/main-header.css';
 @import 'components/molecules/block-logo.css';
 @import 'components/molecules/form.css';
 @import 'components/molecules/form-block-content.css';
 @import 'components/molecules/list.css';
+@import 'components/molecules/block-stack.css';
 @import 'components/organisms/main-content.css';
 @import 'global/commons.css';

@@ -11,3 +11,20 @@
 #list-photos li img {
     width: 100%;
 }
+.mc-carousel-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    max-height: 400px!important;
+    overflow: hidden;
+}
+.mc-carousel-element img {
+    width: 100%;
+}
+.mc .mc-arrow svg {
+    fill: rgba(255,128,113,.6)!important;
+}
+.mc .mc-arrow:hover svg {
+    fill: var(--color-second)!important;
+}
