@@ -1,7 +1,7 @@
 
 import { getPhotosDogs } from '../modules/dogs/photos/index.js';
 import { loadBreedsOptions } from '../modules/dogs/breeds/index.js';
-import '../../css/styles.css';
+
 
 
 document.addEventListener('DOMContentLoaded', () => {

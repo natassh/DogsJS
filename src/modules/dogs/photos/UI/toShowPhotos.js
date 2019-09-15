@@ -1,4 +1,5 @@
-import Carousel from 'https://cdn.pika.dev/marvina-carousel/v1';
+// import Carousel from 'https://cdn.pika.dev/marvina-carousel/v1';
+import Carousel from 'marvina-carousel';
 
 function showError() {
     //console.log('funcion error');
