@@ -4,9 +4,3 @@
     padding: 0;
     margin-right: 1.5rem;
 }
-
-.form__block-content {
-    & #btn-submit {
-        background: #FABADA !important;
-    }
-}

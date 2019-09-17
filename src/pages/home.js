@@ -10,14 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
       })
     loadBreedsOptions();
 
-    var xmlString = str2DOMElement('<div id="foo"><a href="#" id="aafdsasdd">Link</a><span></span></div>');
-    //console.log(xmlString);
 
-    // document.getElementById("list-photos").appendChild(xmlString);
-    // document.querySelector('#aafdsasdd').addEventListener("click", (e) => {
-    //     e.preventDefault();
-    //     console.log('aa');
-    // });
+
+
+    fetch('/src/pages/content.html')
+    .then(response => response.text())
+    .then(text => {
+        var xmlString =  str2DOMElement(text);
+        
+        document.getElementById("carousel").appendChild(xmlString);
+        document.querySelector('#aafdsasdd').addEventListener("click", (e) => {
+            e.preventDefault();
+            console.log('aa');
+        });
+    });
 });
 
 document.querySelector('#btn-submit').addEventListener("click", (e) => {
