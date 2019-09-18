@@ -27,6 +27,7 @@
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.6.0",
     "@babel/runtime": "^7.6.0",
+    "custom-select": "^1.1.15",
     "marvina-carousel": "^1.0.6",
     "postcss-scss": "^2.0.0"
   }

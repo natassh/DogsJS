@@ -1,23 +1,23 @@
-
 import { getPhotosDogs } from '../modules/dogs/photos/index.js';
 import { loadBreedsOptions } from '../modules/dogs/breeds/index.js';
 import '../../css/styles.css';
 
-
 document.addEventListener('DOMContentLoaded', () => {
+    /*
     new SlimSelect({
         select: '#dog-selector'
       })
+      */
+     //customSelect(document.getElementById('dog-selector'));
+        
     loadBreedsOptions();
-
-
 
 
     fetch('/src/pages/content.html')
     .then(response => response.text())
     .then(text => {
         var xmlString =  str2DOMElement(text);
-        
+         
         document.getElementById("carousel").appendChild(xmlString);
         document.querySelector('#aafdsasdd').addEventListener("click", (e) => {
             e.preventDefault();

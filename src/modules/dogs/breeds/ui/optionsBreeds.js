@@ -1,5 +1,9 @@
+import customSelect from 'custom-select';
+
 function showBreedsInSelect(breedsObject) {
-    const breeds = Object.keys(breedsObject.message)
+    const breeds = Object.keys(breedsObject.message);
+    const mySelect = customSelect(document.getElementById('dog-selector'));
+    console.log(mySelect);
     breeds.forEach(breed => {
         let html ='';
         html += `${breed}`;
