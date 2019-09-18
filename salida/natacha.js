@@ -13,7 +13,7 @@
 /******/ 	function hotDownloadUpdateChunk(chunkId) {
 /******/ 		var script = document.createElement("script");
 /******/ 		script.charset = "utf-8";
-/******/ 		script.src = __webpack_require__.p + "db438ee-" + chunkId + "-wps-hmr.js";
+/******/ 		script.src = __webpack_require__.p + "023cf7e-" + chunkId + "-wps-hmr.js";
 /******/ 		if (null) script.crossOrigin = null;
 /******/ 		document.head.appendChild(script);
 /******/ 	}
@@ -27,7 +27,7 @@
 /******/ 			}
 /******/ 			try {
 /******/ 				var request = new XMLHttpRequest();
-/******/ 				var requestPath = __webpack_require__.p + "db438ee-wps-hmr.json";
+/******/ 				var requestPath = __webpack_require__.p + "023cf7e-wps-hmr.json";
 /******/ 				request.open("GET", requestPath, true);
 /******/ 				request.timeout = requestTimeout;
 /******/ 				request.send(null);
@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "59b2623364e7326624a6";
+/******/ 	var hotCurrentHash = "14f529011bc66256de1e";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -716,7 +716,7 @@
 /******/ 	function hotDownloadUpdateChunk(chunkId) {
 /******/ 		var script = document.createElement("script");
 /******/ 		script.charset = "utf-8";
-/******/ 		script.src = __webpack_require__.p + "db438ee-" + chunkId + "-wps-hmr.js";
+/******/ 		script.src = __webpack_require__.p + "023cf7e-" + chunkId + "-wps-hmr.js";
 /******/ 		if (null) script.crossOrigin = null;
 /******/ 		document.head.appendChild(script);
 /******/ 	}
@@ -730,7 +730,7 @@
 /******/ 			}
 /******/ 			try {
 /******/ 				var request = new XMLHttpRequest();
-/******/ 				var requestPath = __webpack_require__.p + "db438ee-wps-hmr.json";
+/******/ 				var requestPath = __webpack_require__.p + "023cf7e-wps-hmr.json";
 /******/ 				request.open("GET", requestPath, true);
 /******/ 				request.timeout = requestTimeout;
 /******/ 				request.send(null);
@@ -766,7 +766,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "59b2623364e7326624a6";
+/******/ 	var hotCurrentHash = "14f529011bc66256de1e";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1801,7 +1801,7 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/*\n  Copyright © 2018 Andrew Powell\n\n  This Source Code Form is subject to the terms of the Mozilla Public\n  License, v. 2.0. If a copy of the MPL was not distributed with this\n  file, You can obtain one at http://mozilla.org/MPL/2.0/.\n\n  The above copyright notice and this permission notice shall be\n  included in all copies or substantial portions of this Source Code Form.\n*/\n\n/**\n * @note This file exists merely as an easy reference for folks adding it to their configuration entries\n */\n\n(() => {\n  /* eslint-disable global-require */\n  const { run } = __webpack_require__(/*! ./lib/client/client */ \"./node_modules/webpack-plugin-serve/lib/client/client.js\");\n  let hash = '<unknown>';\n  let options;\n  try {\n    options = {\"compress\":null,\"headers\":null,\"historyFallback\":false,\"hmr\":true,\"host\":\"localhost\",\"liveReload\":true,\"log\":{\"level\":\"info\",\"prefix\":{\"template\":\"{{level}}\"},\"name\":\"webpack-plugin-serve\"},\"open\":true,\"port\":3001,\"progress\":true,\"ramdisk\":false,\"secure\":false,\"static\":[\"/Users/MacMini/ISIAT/WEBS/CLIENTES/NATACHA-CLIENTES/TALLER/Ejercicios/DogsJS\"],\"status\":true,\"address\":\"localhost:3001\",\"compilerName\":null,\"wpsId\":\"db438ee\"};\n  } catch (e) {\n    const { log } = __webpack_require__(/*! ./lib/client/log */ \"./node_modules/webpack-plugin-serve/lib/client/log.js\");\n    log.error(\n      'The entry for webpack-plugin-serve was included in your build, but it does not appear that the plugin was. Please check your configuration.'\n    );\n  }\n\n  try {\n    // eslint-disable-next-line camelcase\n    hash = __webpack_require__.h();\n  } catch (e) {} // eslint-disable-line no-empty\n\n  run(hash, options);\n})();\n\n\n//# sourceURL=webpack:///(webpack)-plugin-serve/client.js?");
+eval("/*\n  Copyright © 2018 Andrew Powell\n\n  This Source Code Form is subject to the terms of the Mozilla Public\n  License, v. 2.0. If a copy of the MPL was not distributed with this\n  file, You can obtain one at http://mozilla.org/MPL/2.0/.\n\n  The above copyright notice and this permission notice shall be\n  included in all copies or substantial portions of this Source Code Form.\n*/\n\n/**\n * @note This file exists merely as an easy reference for folks adding it to their configuration entries\n */\n\n(() => {\n  /* eslint-disable global-require */\n  const { run } = __webpack_require__(/*! ./lib/client/client */ \"./node_modules/webpack-plugin-serve/lib/client/client.js\");\n  let hash = '<unknown>';\n  let options;\n  try {\n    options = {\"compress\":null,\"headers\":null,\"historyFallback\":false,\"hmr\":true,\"host\":\"localhost\",\"liveReload\":true,\"log\":{\"level\":\"info\",\"prefix\":{\"template\":\"{{level}}\"},\"name\":\"webpack-plugin-serve\"},\"open\":true,\"port\":3001,\"progress\":true,\"ramdisk\":false,\"secure\":false,\"static\":[\"/Users/MacMini/ISIAT/WEBS/CLIENTES/NATACHA-CLIENTES/TALLER/Ejercicios/DogsJS\"],\"status\":true,\"address\":\"localhost:3001\",\"compilerName\":null,\"wpsId\":\"023cf7e\"};\n  } catch (e) {\n    const { log } = __webpack_require__(/*! ./lib/client/log */ \"./node_modules/webpack-plugin-serve/lib/client/log.js\");\n    log.error(\n      'The entry for webpack-plugin-serve was included in your build, but it does not appear that the plugin was. Please check your configuration.'\n    );\n  }\n\n  try {\n    // eslint-disable-next-line camelcase\n    hash = __webpack_require__.h();\n  } catch (e) {} // eslint-disable-line no-empty\n\n  run(hash, options);\n})();\n\n\n//# sourceURL=webpack:///(webpack)-plugin-serve/client.js?");
 
 /***/ }),
 
@@ -1904,18 +1904,6 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
-/***/ "./src/modules/dogs/breeds/UI/toShowBreeds.js":
-/*!****************************************************!*\
-  !*** ./src/modules/dogs/breeds/UI/toShowBreeds.js ***!
-  \****************************************************/
-/*! exports provided: showBreedsInSelect */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"showBreedsInSelect\", function() { return showBreedsInSelect; });\nfunction showBreedsInSelect(breedsObject) {\n  var breeds = Object.keys(breedsObject.message);\n  breeds.forEach(function (breed) {\n    var html = '';\n    html += \"\".concat(breed);\n    var option = document.createElement(\"option\");\n    option.setAttribute(\"value\", breed);\n    option.innerHTML = html;\n    document.getElementById(\"dog-selector\").appendChild(option);\n  });\n}\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/breeds/UI/toShowBreeds.js?");
-
-/***/ }),
-
 /***/ "./src/modules/dogs/breeds/index.js":
 /*!******************************************!*\
   !*** ./src/modules/dogs/breeds/index.js ***!
@@ -1936,19 +1924,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ser
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"loadBreedsOptions\", function() { return loadBreedsOptions; });\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ \"./node_modules/@babel/runtime/regenerator/index.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ \"./node_modules/@babel/runtime/helpers/asyncToGenerator.js\");\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _UI_toShowBreeds_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../UI/toShowBreeds.js */ \"./src/modules/dogs/breeds/UI/toShowBreeds.js\");\n\n\n\n\nfunction loadBreedsOptions() {\n  return _loadBreedsOptions.apply(this, arguments);\n}\n\nfunction _loadBreedsOptions() {\n  _loadBreedsOptions = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default()(\n  /*#__PURE__*/\n  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {\n    var endPoint, responsePromise, dataResponseJsonPromise, breedsObject;\n    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            endPoint = 'https://dog.ceo/api/breeds/list/all';\n            responsePromise = fetch(endPoint);\n            dataResponseJsonPromise = responsePromise.then(function (responseObjectData) {\n              return responseObjectData.json();\n            });\n            _context.next = 5;\n            return dataResponseJsonPromise.then(function (dataResponse) {\n              return dataResponse;\n            });\n\n          case 5:\n            breedsObject = _context.sent;\n            dataResponseJsonPromise[\"catch\"](function (error) {\n              return console.log(error);\n            });\n            Object(_UI_toShowBreeds_js__WEBPACK_IMPORTED_MODULE_2__[\"showBreedsInSelect\"])(breedsObject);\n\n          case 8:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee);\n  }));\n  return _loadBreedsOptions.apply(this, arguments);\n}\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/breeds/service/api.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"loadBreedsOptions\", function() { return loadBreedsOptions; });\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ \"./node_modules/@babel/runtime/regenerator/index.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ \"./node_modules/@babel/runtime/helpers/asyncToGenerator.js\");\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _ui_optionsBreeds_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../ui/optionsBreeds.js */ \"./src/modules/dogs/breeds/ui/optionsBreeds.js\");\n\n\n\n\nfunction loadBreedsOptions() {\n  return _loadBreedsOptions.apply(this, arguments);\n}\n\nfunction _loadBreedsOptions() {\n  _loadBreedsOptions = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default()(\n  /*#__PURE__*/\n  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {\n    var endPoint, responsePromise, dataResponseJsonPromise, breedsObject;\n    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            endPoint = 'https://dog.ceo/api/breeds/list/all';\n            responsePromise = fetch(endPoint);\n            dataResponseJsonPromise = responsePromise.then(function (responseObjectData) {\n              return responseObjectData.json();\n            });\n            _context.next = 5;\n            return dataResponseJsonPromise.then(function (dataResponse) {\n              return dataResponse;\n            });\n\n          case 5:\n            breedsObject = _context.sent;\n            dataResponseJsonPromise[\"catch\"](function (error) {\n              return console.log(error);\n            });\n            Object(_ui_optionsBreeds_js__WEBPACK_IMPORTED_MODULE_2__[\"showBreedsInSelect\"])(breedsObject);\n\n          case 8:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee);\n  }));\n  return _loadBreedsOptions.apply(this, arguments);\n}\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/breeds/service/api.js?");
 
 /***/ }),
 
-/***/ "./src/modules/dogs/photos/UI/toShowPhotos.js":
-/*!****************************************************!*\
-  !*** ./src/modules/dogs/photos/UI/toShowPhotos.js ***!
-  \****************************************************/
-/*! exports provided: showError, showPhotos */
+/***/ "./src/modules/dogs/breeds/ui/optionsBreeds.js":
+/*!*****************************************************!*\
+  !*** ./src/modules/dogs/breeds/ui/optionsBreeds.js ***!
+  \*****************************************************/
+/*! exports provided: showBreedsInSelect */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"showError\", function() { return showError; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"showPhotos\", function() { return showPhotos; });\n/* harmony import */ var marvina_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! marvina-carousel */ \"./node_modules/marvina-carousel/dist/js/marvina-carousel.esm.js\");\n// import Carousel from 'https://cdn.pika.dev/marvina-carousel/v1';\n\n\nfunction showError() {\n  //console.log('funcion error');\n  var alertError = document.createElement('p');\n  alertError.className = 'text-error';\n  var textAlertError = document.createTextNode('El campo no puede estar vacío');\n  alertError.appendChild(textAlertError);\n  document.querySelector('.main-content').insertBefore(alertError, document.querySelector('.list-photos'));\n  var select = document.getElementById(\"dog-selector\");\n  select.className += ' error'; // Ocultamos el mensaje despues de 2 seg\n\n  setTimeout(function () {\n    alertError.remove();\n    select.classList.remove('error');\n  }, 2000);\n}\n\nfunction showPhotos(photos) {\n  document.querySelector(\".list-photos\").innerHTML = '';\n  photos.message.forEach(function (photo) {\n    var html = '';\n    html += \"<img src=\\\"\".concat(photo, \"\\\"/>\");\n    var figure = document.createElement(\"figure\");\n    figure.className = 'mc-carousel-element';\n    figure.innerHTML = html;\n    document.querySelector(\".list-photos\").appendChild(figure);\n  });\n  var carousel = new marvina_carousel__WEBPACK_IMPORTED_MODULE_0__[\"default\"]({\n    el: '#carousel',\n    minImage: 2\n  });\n}\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/photos/UI/toShowPhotos.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"showBreedsInSelect\", function() { return showBreedsInSelect; });\nfunction showBreedsInSelect(breedsObject) {\n  var breeds = Object.keys(breedsObject.message);\n  breeds.forEach(function (breed) {\n    var html = '';\n    html += \"\".concat(breed);\n    var option = document.createElement(\"option\");\n    option.setAttribute(\"value\", breed);\n    option.innerHTML = html;\n    document.getElementById(\"dog-selector\").appendChild(option);\n  });\n}\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/breeds/ui/optionsBreeds.js?");
 
 /***/ }),
 
@@ -1960,7 +1948,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getPhotosDogs\", function() { return getPhotosDogs; });\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ \"./node_modules/@babel/runtime/regenerator/index.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ \"./node_modules/@babel/runtime/helpers/asyncToGenerator.js\");\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _service_api_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./service/api.js */ \"./src/modules/dogs/photos/service/api.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"queryApi\", function() { return _service_api_js__WEBPACK_IMPORTED_MODULE_2__[\"queryApi\"]; });\n\n/* harmony import */ var _UI_toShowPhotos_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./UI/toShowPhotos.js */ \"./src/modules/dogs/photos/UI/toShowPhotos.js\");\n\n\n\n\n\n\nfunction getPhotosDogs() {\n  return _getPhotosDogs.apply(this, arguments);\n}\n\nfunction _getPhotosDogs() {\n  _getPhotosDogs = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default()(\n  /*#__PURE__*/\n  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {\n    var breedValue, dogs;\n    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            breedValue = document.getElementById(\"dog-selector\").value;\n\n            if (!(breedValue === '')) {\n              _context.next = 5;\n              break;\n            }\n\n            Object(_UI_toShowPhotos_js__WEBPACK_IMPORTED_MODULE_3__[\"showError\"])();\n            _context.next = 9;\n            break;\n\n          case 5:\n            _context.next = 7;\n            return Object(_service_api_js__WEBPACK_IMPORTED_MODULE_2__[\"queryApi\"])();\n\n          case 7:\n            dogs = _context.sent;\n            Object(_UI_toShowPhotos_js__WEBPACK_IMPORTED_MODULE_3__[\"showPhotos\"])(dogs);\n\n          case 9:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee);\n  }));\n  return _getPhotosDogs.apply(this, arguments);\n}\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/photos/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getPhotosDogs\", function() { return getPhotosDogs; });\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ \"./node_modules/@babel/runtime/regenerator/index.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ \"./node_modules/@babel/runtime/helpers/asyncToGenerator.js\");\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _service_api_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./service/api.js */ \"./src/modules/dogs/photos/service/api.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"queryApi\", function() { return _service_api_js__WEBPACK_IMPORTED_MODULE_2__[\"queryApi\"]; });\n\n/* harmony import */ var _ui_listPhotos_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ui/listPhotos.js */ \"./src/modules/dogs/photos/ui/listPhotos.js\");\n\n\n\n\n\n\nfunction getPhotosDogs() {\n  return _getPhotosDogs.apply(this, arguments);\n}\n\nfunction _getPhotosDogs() {\n  _getPhotosDogs = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default()(\n  /*#__PURE__*/\n  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {\n    var breedValue, dogs;\n    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            breedValue = document.getElementById(\"dog-selector\").value;\n\n            if (!(breedValue === '')) {\n              _context.next = 5;\n              break;\n            }\n\n            Object(_ui_listPhotos_js__WEBPACK_IMPORTED_MODULE_3__[\"showError\"])();\n            _context.next = 9;\n            break;\n\n          case 5:\n            _context.next = 7;\n            return Object(_service_api_js__WEBPACK_IMPORTED_MODULE_2__[\"queryApi\"])();\n\n          case 7:\n            dogs = _context.sent;\n            Object(_ui_listPhotos_js__WEBPACK_IMPORTED_MODULE_3__[\"showPhotos\"])(dogs);\n\n          case 9:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee);\n  }));\n  return _getPhotosDogs.apply(this, arguments);\n}\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/photos/index.js?");
 
 /***/ }),
 
@@ -1973,6 +1961,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"queryApi\", function() { return queryApi; });\nfunction queryApi() {\n  var breedValue = document.getElementById(\"dog-selector\").value;\n  var endPoint = 'https://dog.ceo/api/breed/' + breedValue + '/images/random/25'; //console.log(endPoint);\n\n  var responsePromise = fetch(endPoint);\n  var dataResponseJsonPromise = responsePromise.then(function (responseObjectData) {\n    return responseObjectData.json();\n  });\n  var dogs = dataResponseJsonPromise.then(function (dataResponse) {\n    return dataResponse;\n  });\n  dataResponseJsonPromise[\"catch\"](function (error) {\n    return console.log(error);\n  });\n  return dogs;\n}\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/photos/service/api.js?");
+
+/***/ }),
+
+/***/ "./src/modules/dogs/photos/ui/listPhotos.js":
+/*!**************************************************!*\
+  !*** ./src/modules/dogs/photos/ui/listPhotos.js ***!
+  \**************************************************/
+/*! exports provided: showError, showPhotos */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"showError\", function() { return showError; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"showPhotos\", function() { return showPhotos; });\n/* harmony import */ var marvina_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! marvina-carousel */ \"./node_modules/marvina-carousel/dist/js/marvina-carousel.esm.js\");\n// import Carousel from 'https://cdn.pika.dev/marvina-carousel/v1';\n\n\nfunction showError() {\n  //console.log('funcion error');\n  var alertError = document.createElement('p');\n  alertError.className = 'text-error';\n  var textAlertError = document.createTextNode('El campo no puede estar vacío');\n  alertError.appendChild(textAlertError);\n  document.querySelector('.main-content').insertBefore(alertError, document.querySelector('.list-photos'));\n  var select = document.getElementById(\"dog-selector\");\n  select.className += ' error'; // Ocultamos el mensaje despues de 2 seg\n\n  setTimeout(function () {\n    alertError.remove();\n    select.classList.remove('error');\n  }, 2000);\n}\n\nfunction showPhotos(photos) {\n  document.querySelector(\".list-photos\").innerHTML = '';\n  photos.message.forEach(function (photo) {\n    var html = '';\n    html += \"<img src=\\\"\".concat(photo, \"\\\"/>\");\n    var figure = document.createElement(\"figure\");\n    figure.className = 'mc-carousel-element';\n    figure.innerHTML = html;\n    document.querySelector(\".list-photos\").appendChild(figure);\n  });\n  var carousel = new marvina_carousel__WEBPACK_IMPORTED_MODULE_0__[\"default\"]({\n    el: '#carousel',\n    minImage: 2\n  });\n}\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/photos/ui/listPhotos.js?");
 
 /***/ }),
 

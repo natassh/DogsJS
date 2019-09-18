@@ -1,4 +1,4 @@
-import { showBreedsInSelect } from '../UI/toShowBreeds.js';
+import { showBreedsInSelect } from '../ui/optionsBreeds.js';
 
 async function loadBreedsOptions() {
     const endPoint = 'https://dog.ceo/api/breeds/list/all';

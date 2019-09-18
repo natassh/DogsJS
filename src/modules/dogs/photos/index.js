@@ -1,6 +1,6 @@
 import { queryApi } from './service/api.js';
-import { showError } from './UI/toShowPhotos.js';
-import { showPhotos } from './UI/toShowPhotos.js';
+import { showError } from './ui/listPhotos.js';
+import { showPhotos } from './ui/listPhotos.js';
 
 async function getPhotosDogs() {
     const breedValue = document.getElementById("dog-selector").value;
