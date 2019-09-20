@@ -1,10 +1,8 @@
 import SlimSelect from 'slim-select'
+import '../../node_modules/slim-select/dist/SlimSelect.min.css';
 import { getPhotosDogs } from '../modules/dogs/photos/index.js';
 import { loadBreedsOptions } from '../modules/dogs/breeds/index.js';
 import { stackInit } from '../modules/used-stack/index.js';
-
-import '../modules/used-stack/ui/ribbon/styles.css';
-import '../modules/used-stack/ui/modal/styles.css';
 import '../../css/styles.css';
 
 document.addEventListener('DOMContentLoaded', () => {
