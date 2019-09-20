@@ -7,11 +7,14 @@
     font-weight: var(--regular);
     text-transform: uppercase;
     font-size: 0.7rem;
-    height: 1.8rem;
+    height: 2.5rem;
     color: var(--bg-main);
     background-color: var(--color-title);
+    transition: background-color 0.3s;
     border: 1px solid var(--color-title);
     border-radius: 5px;
+    margin-left: 1rem;
+    cursor: pointer;
 }
 .form__btn-submit:hover {
     color: var(--color-title);

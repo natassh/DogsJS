@@ -13,3 +13,14 @@
 .ss-main .ss-content .ss-list {
     max-height: 220px;
 }
+.ss-main .ss-single-selected {
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+}
+.ss-main .ss-content {
+    border: none;
+}
+.ss-main .ss-content .ss-list .ss-option, .ss-main .ss-single-selected .placeholder {
+    color: var(--color-title);
+}

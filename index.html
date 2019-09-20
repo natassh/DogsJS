@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://unpkg.com/marvina-carousel@1.0.6/dist/css/marvina-carousel.min.css" type="text/css" charset="utf-8" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/slim-select@1.23.0/dist/slimselect.min.css"> 
     <title>Dogs Images</title>
     <!--
         <script src="https://unpkg.com/slim-select@1.23.0/dist/slimselect.min.js"></script>
@@ -12,9 +13,6 @@
     -->
 </head>
 <body >
-    <aside class="stack">
-        <h2 class="stack__title-stack">Used stack</h2>
-    </aside>
     <header class="main-header">
         <h1 class="title">Razas de perros</h1>
         <figure class="block-logo">
@@ -23,12 +21,10 @@
     </header>
     <main class="main-content">
         <form class="form">
-            <fieldset class="form__block-content">
                 <label for="dog-selector" class="form__label-title">Elige la raza:</label>      
                 <!--<input list="dog-selector" name="dog-selector" class="form__input-list">-->
                 <select id="dog-selector"  class="form__select">
                 </select>
-            </fieldset>
             <input type="submit" id="btn-submit" value="Pulsa para mostrar" class="form__btn-submit">
         </form>
         <section id="carousel" class="list-photos" >

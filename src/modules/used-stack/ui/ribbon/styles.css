@@ -1,0 +1,31 @@
+.stack {
+    display: inline-block;
+    transform: rotate(38deg);
+    position: absolute;
+    top: 38px;
+    right: -12px;
+    cursor: pointer;
+    /*
+    top: 37px;
+    right: -12px;
+    */
+}
+.stack__title-stack {
+    margin: 0;
+    padding: 0;
+    color: var(--bg-main);
+    font-size: 1rem;
+	font-family: var(--main-font);
+    font-weight: var(--regular);
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    background-color: var(--color-second);
+    padding: 0.5rem;
+    transition: all .2s ease-in-out;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.stack:hover h2 {
+    background-color: var(--color-title);
+    transform: scale(1.1);
+}
