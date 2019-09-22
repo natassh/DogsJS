@@ -1,5 +1,5 @@
 import SlimSelect from 'slim-select';
-// import '../../node_modules/slim-select/dist/SlimSelect.min.css';
+import 'slim-select/dist/SlimSelect.min.css';
 import { getPhotosDogs } from '../modules/dogs/photos/index.js';
 import { loadBreedsOptions } from '../modules/dogs/breeds/index.js';
 import { stackInit } from '../modules/used-stack/index.js';
