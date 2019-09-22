@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "9b634283025a35b8cca3";
+/******/ 	var hotCurrentHash = "aced9335e6b9dd40ac56";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -766,7 +766,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "9b634283025a35b8cca3";
+/******/ 	var hotCurrentHash = "aced9335e6b9dd40ac56";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2095,7 +2095,7 @@ eval("module.exports = __webpack_require__.p + \"static/media/webpack.jpg\";\n\n
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ui_ribbon_ribbon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ui/ribbon/ribbon.js */ \"./src/modules/used-stack/ui/ribbon/ribbon.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"stackInit\", function() { return _ui_ribbon_ribbon_js__WEBPACK_IMPORTED_MODULE_0__[\"stackInit\"]; });\n\n\n/* eslint-disable no-console */\n\nconsole.log('aaa22222');\n\n\n//# sourceURL=webpack:///./src/modules/used-stack/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ui_ribbon_ribbon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ui/ribbon/ribbon.js */ \"./src/modules/used-stack/ui/ribbon/ribbon.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"stackInit\", function() { return _ui_ribbon_ribbon_js__WEBPACK_IMPORTED_MODULE_0__[\"stackInit\"]; });\n\n\n/* eslint-disable no-console */\n\nconsole.log('aaa 333');\n\n\n//# sourceURL=webpack:///./src/modules/used-stack/index.js?");
 
 /***/ }),
 
