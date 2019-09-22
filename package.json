@@ -8,6 +8,7 @@
     "start": "npm run pre:start && webpack-serve",
     "pre:start": "rm -rf salida",
     "build": "MODE=production webpack",
+    "deploy": "webpack",
     "linter": "eslint ./src",
     "linter:fix": "eslint ./src --fix"
   },
