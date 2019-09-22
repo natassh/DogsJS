@@ -1,18 +1,21 @@
 import { str2DOMElement } from '../utils/str2DOMElement.js';
+import contentHTML from '../assets/content.html';
 
-function getContentModal() {
-    fetch('./src/modules/used-stack/assets/content.html')
+import '../assets/images/css3.png';
+import '../assets/images/js.png';
+import '../assets/images/html5.png';
+import '../assets/images/webpack.jpg';
+
+const publicDir = PUBLIC_DIR || 'public';
+
+const getContentModal = () => {
+    fetch(`/${publicDir}/${contentHTML}`)
     .then(response => response.text())
     .then(text => {
-        var xmlString =  str2DOMElement(text);
-         
-        document.querySelector(".modal-container").appendChild(xmlString);
-        // document.querySelector('#aafdsasdd').addEventListener("click", (e) => {
-        //     e.preventDefault();
-        //     console.log('aa');
-        // });
+        const xmlString =  str2DOMElement(text);
+        document.querySelector('.modal-container').appendChild(xmlString);
     });
-}
+};
 
 export {
     getContentModal

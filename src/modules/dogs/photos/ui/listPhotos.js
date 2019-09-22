@@ -8,7 +8,7 @@ function showError() {
     const textAlertError = document.createTextNode('El campo no puede estar vacío');
     alertError.appendChild(textAlertError);
     document.querySelector('.main-content').insertBefore(alertError,document.querySelector('.list-photos'));
-    const select = document.getElementById("dog-selector");
+    const select = document.getElementById('dog-selector');
     select.className += ' error';
     // Ocultamos el mensaje despues de 2 seg
     setTimeout(function() {
@@ -19,14 +19,14 @@ function showError() {
 
 
 function showPhotos(photos) {
-    document.querySelector(".list-photos").innerHTML = '';
+    document.querySelector('.list-photos').innerHTML = '';
     photos.message.forEach(photo => {
         let html ='';
         html += `<img src="${photo}"/>`;
-        let figure = document.createElement("figure"); 
+        let figure = document.createElement('figure'); 
         figure.className = 'mc-carousel-element';
         figure.innerHTML = html;
-        document.querySelector(".list-photos").appendChild(figure);
+        document.querySelector('.list-photos').appendChild(figure);
     });
 
     const carousel = new Carousel({

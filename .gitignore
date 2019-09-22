@@ -1,1 +1,4 @@
 node_modules
+salida
+# Local Netlify folder
+.netlify

@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-serve",
-    "build": "MODE=production webpack"
+    "start": "npm run pre:start && webpack-serve",
+    "pre:start": "rm -rf salida",
+    "build": "MODE=production webpack",
+    "linter": "eslint ./src",
+    "linter:fix": "eslint ./src --fix"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +18,8 @@
     "@babel/preset-env": "^7.6.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
+    "eslint": "^6.4.0",
+    "file-loader": "^4.2.0",
     "postcss": "^7.0.18",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
@@ -27,6 +32,7 @@
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.6.0",
     "@babel/runtime": "^7.6.0",
+    "custom-select": "^1.1.15",
     "marvina-carousel": "^1.0.6",
     "postcss-scss": "^2.0.0",
     "slim-select": "^1.23.1"

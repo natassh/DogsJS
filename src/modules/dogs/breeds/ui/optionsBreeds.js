@@ -7,10 +7,10 @@ function showBreedsInSelect(breedsObject) {
     breeds.forEach(breed => {
         let html ='';
         html += `${breed}`;
-        let option = document.createElement("option"); 
-        option.setAttribute("value",breed);
+        let option = document.createElement('option'); 
+        option.setAttribute('value',breed);
         option.innerHTML = html;
-        document.getElementById("dog-selector").appendChild(option);
+        document.getElementById('dog-selector').appendChild(option);
     });
 }
 

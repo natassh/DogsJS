@@ -1,8 +1,6 @@
 import { stackInit } from './ui/ribbon/ribbon.js';
 
-//stackInit();
+/* eslint-disable no-console */
+console.log('aaa');
 
-export {
-    stackInit
-};
-
+export { stackInit };

@@ -1,4 +1,4 @@
-import SlimSelect from 'slim-select'
+import SlimSelect from 'slim-select';
 import '../../node_modules/slim-select/dist/SlimSelect.min.css';
 import { getPhotosDogs } from '../modules/dogs/photos/index.js';
 import { loadBreedsOptions } from '../modules/dogs/breeds/index.js';
@@ -10,12 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     new SlimSelect({
         select: '#dog-selector'
-      })
+      });
 
     loadBreedsOptions();
 });
 
-document.querySelector('#btn-submit').addEventListener("click", (e) => {
+document.querySelector('#btn-submit').addEventListener('click', (e) => {
     e.preventDefault();
     getPhotosDogs();
 });

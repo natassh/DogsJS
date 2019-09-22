@@ -3,7 +3,7 @@ import { showError } from './ui/listPhotos.js';
 import { showPhotos } from './ui/listPhotos.js';
 
 async function getPhotosDogs() {
-    const breedValue = document.getElementById("dog-selector").value;
+    const breedValue = document.getElementById('dog-selector').value;
     if(breedValue === '') {
         showError();
     } else {
