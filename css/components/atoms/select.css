@@ -1,5 +1,5 @@
 .form__select {
-    width: 15.5rem;
+    width: 15.5rem!important;
     color: var(--color-text);
     font-family: var(--main-font);
     font-weight: var(--regular);
