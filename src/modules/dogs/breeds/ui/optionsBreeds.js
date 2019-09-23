@@ -1,6 +1,6 @@
 import SlimSelect from 'slim-select';
 
-function showBreedsInSelect(breedsObject) {
+const showBreedsInSelect = breedsObject => {
   new SlimSelect({
     select: '#dog-selector'
   });
@@ -13,6 +13,6 @@ function showBreedsInSelect(breedsObject) {
     option.innerHTML = html;
     document.getElementById('dog-selector').appendChild(option);
   });
-}
+};
 
 export { showBreedsInSelect };

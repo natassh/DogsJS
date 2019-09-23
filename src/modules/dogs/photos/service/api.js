@@ -1,4 +1,4 @@
-function queryApi() {
+const queryApi = () => {
   const breedValue = document.getElementById('dog-selector').value;
   const endPoint =
     'https://dog.ceo/api/breed/' + breedValue + '/images/random/25';
@@ -11,6 +11,6 @@ function queryApi() {
   /* eslint-disable no-console */
   dataResponseJsonPromise.catch(error => console.log(error));
   return dogs;
-}
+};
 
 export { queryApi };

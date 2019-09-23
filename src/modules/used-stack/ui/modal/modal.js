@@ -1,6 +1,6 @@
 import { getContentModal } from '../../service/get-content.js';
 
-function showModal() {
+const showModal = () => {
   const body = document.querySelector('body');
 
   // Create and add element modal
@@ -29,12 +29,12 @@ function showModal() {
     e.preventDefault();
     closeModal();
   });
-}
+};
 
-function closeModal() {
+const closeModal = () => {
   const body = document.querySelector('body');
   const modal = document.querySelector('.modal');
   body.removeChild(modal);
-}
+};
 
 export { showModal };

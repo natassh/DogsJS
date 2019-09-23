@@ -3,11 +3,11 @@ import { showModal } from '../modal/modal.js';
 import './ribbon.css';
 import '../modal/modal.css';
 
-function stackInit() {
+const stackInit = () => {
   showRibbon();
-}
+};
 
-function showRibbon() {
+const showRibbon = () => {
   const aside = document.createElement('aside');
   aside.className = 'stack';
 
@@ -27,6 +27,6 @@ function showRibbon() {
       showModal();
     }
   });
-}
+};
 
 export { stackInit };

@@ -1,6 +1,6 @@
 import { showBreedsInSelect } from '../ui/optionsBreeds.js';
 
-async function loadBreedsOptions() {
+const loadBreedsOptions = async () => {
   const endPoint = 'https://dog.ceo/api/breeds/list/all';
   const responsePromise = fetch(endPoint);
   const dataResponseJsonPromise = responsePromise.then(responseObjectData =>
@@ -12,6 +12,6 @@ async function loadBreedsOptions() {
   /* eslint-disable no-console */
   dataResponseJsonPromise.catch(error => console.log(error));
   showBreedsInSelect(breedsObject);
-}
+};
 
 export { loadBreedsOptions };

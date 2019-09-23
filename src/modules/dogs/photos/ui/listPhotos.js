@@ -1,24 +1,6 @@
 import Carousel from 'marvina-carousel';
 
-function showError() {
-  const alertError = document.createElement('p');
-  alertError.className = 'text-error';
-  const textAlertError = document.createTextNode(
-    'El campo no puede estar vacío'
-  );
-  alertError.appendChild(textAlertError);
-  document
-    .querySelector('.main-content')
-    .insertBefore(alertError, document.querySelector('.list-photos'));
-  const select = document.getElementById('dog-selector');
-  select.className += ' error';
-  setTimeout(function() {
-    alertError.remove();
-    select.classList.remove('error');
-  }, 2000);
-}
-
-function showPhotos(photos) {
+const showPhotos = photos => {
   document.querySelector('.list-photos').innerHTML = '';
   photos.message.forEach(photo => {
     let html = '';
@@ -33,6 +15,6 @@ function showPhotos(photos) {
     el: '#carousel',
     minImage: 2
   });
-}
+};
 
-export { showError, showPhotos };
+export { showPhotos };
