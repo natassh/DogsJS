@@ -1,8 +1,10 @@
-import customSelect from 'custom-select';
+import SlimSelect from 'slim-select';
 
 function showBreedsInSelect(breedsObject) {
+  new SlimSelect({
+    select: '#dog-selector'
+  });
   const breeds = Object.keys(breedsObject.message);
-  const mySelect = customSelect(document.getElementById('dog-selector'));
   breeds.forEach(breed => {
     let html = '';
     html += `${breed}`;
