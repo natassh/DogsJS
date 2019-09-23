@@ -1,11 +1,3 @@
-html.modal {
-  /*position: relative;*/
-  /*min-height: 100vh;*/
-}
-body.modal-active {
-  /*background-color: grey;*/
-  /*opacity: 0.5;*/
-}
 .modal {
   width: 100%;
   height: 100vh;
