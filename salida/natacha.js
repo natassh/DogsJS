@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "a7d2e3868535338904ae";
+/******/ 	var hotCurrentHash = "f43ae80569bb74a98828";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -766,7 +766,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "a7d2e3868535338904ae";
+/******/ 	var hotCurrentHash = "f43ae80569bb74a98828";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2118,7 +2118,7 @@ eval("var content = __webpack_require__(/*! !../../../../../node_modules/css-loa
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"showModal\", function() { return showModal; });\n/* harmony import */ var _service_get_content_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../service/get-content.js */ \"./src/modules/used-stack/service/get-content.js\");\n\n\nvar showModal = function showModal() {\n  var body = document.querySelector('body'); // Create and add element modal\n\n  var modal = document.createElement('aside');\n  modal.className = 'modal';\n  body.appendChild(modal); // Create and add modal__container\n\n  var modalContainer = document.createElement('div');\n  modalContainer.className = 'modal__container';\n  modal.appendChild(modalContainer); // Create and add button close modal\n\n  var buttonClose = document.createElement('a');\n  buttonClose.setAttribute('href', '#');\n  buttonClose.className = 'close-btn';\n  var textCloseBtn = document.createTextNode('X');\n  buttonClose.appendChild(textCloseBtn);\n  modalContainer.appendChild(buttonClose); // Add text content modal\n\n  Object(_service_get_content_js__WEBPACK_IMPORTED_MODULE_0__[\"getContentModal\"])(); // Close modal\n\n  buttonClose.addEventListener('click', function (e) {\n    e.preventDefault();\n    closeModal();\n  });\n};\n\nvar closeModal = function closeModal() {\n  var body = document.querySelector('body');\n  var modal = document.querySelector('.modal');\n  body.removeChild(modal);\n};\n\n\n\n//# sourceURL=webpack:///./src/modules/used-stack/ui/modal/modal.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"showModal\", function() { return showModal; });\n/* harmony import */ var _service_get_content_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../service/get-content.js */ \"./src/modules/used-stack/service/get-content.js\");\n\n\nvar showModal = function showModal() {\n  createModal();\n  createModalContainer();\n  createBtnCloseModal();\n  Object(_service_get_content_js__WEBPACK_IMPORTED_MODULE_0__[\"getContentModal\"])();\n  eventCloseModal();\n};\n\nvar createModal = function createModal() {\n  var body = document.querySelector('body');\n  var modal = document.createElement('aside');\n  modal.className = 'modal';\n  body.appendChild(modal);\n};\n\nvar createModalContainer = function createModalContainer() {\n  var modal = document.querySelector('.modal');\n  var modalContainer = document.createElement('div');\n  modalContainer.className = 'modal__container';\n  modal.appendChild(modalContainer);\n};\n\nvar createBtnCloseModal = function createBtnCloseModal() {\n  var buttonClose = document.createElement('a');\n  buttonClose.setAttribute('href', '#');\n  buttonClose.className = 'close-btn';\n  var textCloseBtn = document.createTextNode('X');\n  buttonClose.appendChild(textCloseBtn);\n  var modalContainer = document.querySelector('.modal__container');\n  modalContainer.appendChild(buttonClose);\n};\n\nvar eventCloseModal = function eventCloseModal() {\n  var buttonClose = document.querySelector('.close-btn');\n  buttonClose.addEventListener('click', function (e) {\n    e.preventDefault();\n    closeModal();\n  });\n};\n\nvar closeModal = function closeModal() {\n  var body = document.querySelector('body');\n  var modal = document.querySelector('.modal');\n  body.removeChild(modal);\n};\n\n\n\n//# sourceURL=webpack:///./src/modules/used-stack/ui/modal/modal.js?");
 
 /***/ }),
 
