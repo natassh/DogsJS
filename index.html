@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://unpkg.com/marvina-carousel@1.0.6/dist/css/marvina-carousel.min.css" type="text/css" charset="utf-8" media="screen"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/marvina-carousel@1.0.6/dist/css/marvina-carousel.min.css"
+      type="text/css"
+      charset="utf-8"
+      media="screen"
+    />
     <!--<link rel="stylesheet" type="text/css" href="https://unpkg.com/slim-select@1.23.0/dist/slimselect.min.css"> -->
     <title>Dogs Images</title>
-</head>
-<body >
-    <header class="main-header">
-        <h1 class="title">Razas de perros</h1>
-        <figure class="block-logo">
-            <img src="images/huella2.png" class="block-logo__img">
-        </figure>
+  </head>
+  <body>
+    <header class="logo">
+      <h1 class="logo__title">Razas de perros</h1>
+      <figure class="logo__picture">
+        <img src="images/huella2.png" class="block-logo__img" />
+      </figure>
     </header>
     <main class="main-content">
-        <form class="form">
-                <label for="dog-selector" class="form__label-title">Elige la raza:</label>      
-                <!--<input list="dog-selector" name="dog-selector" class="form__input-list">-->
-                <select id="dog-selector"  class="form__select">
-                </select>
-            <input type="submit" id="btn-submit" value="Pulsa para mostrar" class="form__btn-submit">
-        </form>
-        <section id="carousel" class="list-photos" >
-        </section>
+      <form class="form">
+        <label for="dog-selector" class="form__label-title"
+          >Elige la raza:</label
+        >
+        <!--<input list="dog-selector" name="dog-selector" class="form__input-list">-->
+        <select id="dog-selector" class="form__select"> </select>
+        <input
+          type="submit"
+          id="btn-submit"
+          value="Pulsa para mostrar"
+          class="form__btn-submit"
+        />
+      </form>
+      <section id="carousel" class="list-photos"></section>
     </main>
     <script src="salida/natacha.js"></script>
-    
-</body>
+  </body>
 </html>
