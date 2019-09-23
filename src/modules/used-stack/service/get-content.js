@@ -9,14 +9,12 @@ import '../assets/images/webpack.jpg';
 const publicDir = PUBLIC_DIR || 'public';
 
 const getContentModal = () => {
-    fetch(`/${publicDir}/${contentHTML}`)
+  fetch(`/${publicDir}/${contentHTML}`)
     .then(response => response.text())
     .then(text => {
-        const xmlString =  str2DOMElement(text);
-        document.querySelector('.modal-container').appendChild(xmlString);
+      const xmlString = str2DOMElement(text);
+      document.querySelector('.modal__container').appendChild(xmlString);
     });
 };
 
-export {
-    getContentModal
-};
+export { getContentModal };

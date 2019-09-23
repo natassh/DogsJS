@@ -23,7 +23,7 @@ function showRibbon() {
   container.insertBefore(aside, mainHeader);
 
   aside.addEventListener('click', e => {
-    if (!document.querySelector('.modal-container')) {
+    if (!document.querySelector('.modal')) {
       showModal();
     }
   });

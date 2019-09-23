@@ -1,46 +1,40 @@
 import { getContentModal } from '../../service/get-content.js';
 
 function showModal() {
-    // Add class elements to show modal
-    const container = document.querySelector('html');
-    const body = document.querySelector('body');
-    container.className = 'modal';
-    body.className = 'modal-active';
+  const body = document.querySelector('body');
 
-    // Create and add element modal
-    const modalContainer = document.createElement('div');
-    modalContainer.className = 'modal-container';
-    container.appendChild(modalContainer);
+  // Create and add element modal
+  const modal = document.createElement('aside');
+  modal.className = 'modal';
+  body.appendChild(modal);
 
-    // Create button close modal
-    const buttonClose = document.createElement('a');
-    buttonClose.setAttribute('href', '#');
-    buttonClose.className = 'close-btn';
-    const textCloseBtn = document.createTextNode('X');
-    buttonClose.appendChild(textCloseBtn);
-    modalContainer.appendChild(buttonClose);
+  // Create and add modal__container
+  const modalContainer = document.createElement('div');
+  modalContainer.className = 'modal__container';
+  modal.appendChild(modalContainer);
 
-    // Add text content modal
-    getContentModal();
+  // Create and add button close modal
+  const buttonClose = document.createElement('a');
+  buttonClose.setAttribute('href', '#');
+  buttonClose.className = 'close-btn';
+  const textCloseBtn = document.createTextNode('X');
+  buttonClose.appendChild(textCloseBtn);
+  modalContainer.appendChild(buttonClose);
 
-    // Close modal
-    buttonClose.addEventListener('click', (e) => {
-        e.preventDefault();
-        closeModal();
-    });
+  // Add text content modal
+  getContentModal();
+
+  // Close modal
+  buttonClose.addEventListener('click', e => {
+    e.preventDefault();
+    closeModal();
+  });
 }
 
 function closeModal() {
-    // Delete classes
-    const container = document.querySelector('html');
-    const body = document.querySelector('body');
-    container.className = '';
-    body.className = '';
-    // Delete modal
-    const modalContainer = document.querySelector('.modal-container');
-    container.removeChild(modalContainer);
+  const body = document.querySelector('body');
+  const modal = document.querySelector('.modal');
+  body.removeChild(modal);
 }
 
-export {
-    showModal
-};
+export { showModal };

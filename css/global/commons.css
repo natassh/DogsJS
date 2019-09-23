@@ -1,11 +1,15 @@
 body {
-    background-color: var(--bg-main);
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: var(--bg-main);
+  padding: 5rem 0rem;
 }
-.stack-on { 
-    background-color: grey;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
+.stack-on {
+  background-color: grey;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
-.mc>ul {
-    display: none!important;
+.mc > ul {
+  display: none !important;
 }
