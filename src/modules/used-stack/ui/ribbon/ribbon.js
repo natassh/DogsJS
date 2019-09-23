@@ -1,7 +1,7 @@
 import { showModal } from '../modal/modal.js';
 
-import './styles.css';
-import '../modal/styles.css';
+import './ribbon.css';
+import '../modal/modal.css';
 
 function stackInit() {
   showRibbon();
