@@ -8,7 +8,7 @@
   cursor: pointer;
   text-align: center;
 }
-.stack__title-stack {
+.stack__title {
   margin: 0;
   padding: 0;
   color: var(--bg-main);
@@ -21,7 +21,7 @@
   padding: 0.5rem;
   transition: all 0.2s ease-in-out;
 }
-.stack:hover h2 {
+.stack:hover .stack__title {
   background-color: var(--color-title);
   transform: scale(1.1);
 }

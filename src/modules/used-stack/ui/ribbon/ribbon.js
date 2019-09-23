@@ -12,7 +12,7 @@ function showRibbon() {
   aside.className = 'stack';
 
   const titleStack = document.createElement('h2');
-  titleStack.className = 'stack__title-stack';
+  titleStack.className = 'stack__title';
   const textTitle = document.createTextNode('Used stack');
   titleStack.appendChild(textTitle);
 
