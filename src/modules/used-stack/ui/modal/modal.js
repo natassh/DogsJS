@@ -1,4 +1,5 @@
 import { getContentModal } from '../../service/get-content.js';
+import './modal.css';
 
 const showModal = () => {
   createModal();

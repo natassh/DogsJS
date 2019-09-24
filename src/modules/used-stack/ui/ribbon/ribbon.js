@@ -1,7 +1,7 @@
 import { showModal } from '../modal/modal.js';
 
 import './ribbon.css';
-import '../modal/modal.css';
+//import '../modal/modal.css';
 
 const usedStackInit = () => {
   showRibbon();
