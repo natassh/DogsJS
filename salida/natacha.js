@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "ee47be2ba2bed7310ba6";
+/******/ 	var hotCurrentHash = "8847f48ee520f7e051a2";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -766,7 +766,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "ee47be2ba2bed7310ba6";
+/******/ 	var hotCurrentHash = "8847f48ee520f7e051a2";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1688,7 +1688,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.i, \"body {\\n  margin: 0;\\n  padding: 0;\\n  position: relative;\\n  background-color: var(--bg-main);\\n  padding: 5rem 0rem;\\n}\\n/*Marvina carousel css */\\n.mc > ul {\\n  display: none !important;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"commons.css\"],\"names\":[],\"mappings\":\"AAAA;EACE,SAAS;EACT,UAAU;EACV,kBAAkB;EAClB,gCAAgC;EAChC,kBAAkB;AACpB;AACA,wBAAwB;AACxB;EACE,wBAAwB;AAC1B\",\"file\":\"commons.css\",\"sourcesContent\":[\"body {\\n  margin: 0;\\n  padding: 0;\\n  position: relative;\\n  background-color: var(--bg-main);\\n  padding: 5rem 0rem;\\n}\\n/*Marvina carousel css */\\n.mc > ul {\\n  display: none !important;\\n}\\n\"]}]);\n\n\n//# sourceURL=webpack:///./css/global/commons.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.i, \"body {\\n  margin: 0;\\n  padding: 0;\\n  position: relative;\\n  background-color: var(--bg-main);\\n  padding: 5rem 0rem;\\n  overflow: hidden;\\n}\\n/*Marvina carousel css */\\n.mc > ul {\\n  display: none !important;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"commons.css\"],\"names\":[],\"mappings\":\"AAAA;EACE,SAAS;EACT,UAAU;EACV,kBAAkB;EAClB,gCAAgC;EAChC,kBAAkB;EAClB,gBAAgB;AAClB;AACA,wBAAwB;AACxB;EACE,wBAAwB;AAC1B\",\"file\":\"commons.css\",\"sourcesContent\":[\"body {\\n  margin: 0;\\n  padding: 0;\\n  position: relative;\\n  background-color: var(--bg-main);\\n  padding: 5rem 0rem;\\n  overflow: hidden;\\n}\\n/*Marvina carousel css */\\n.mc > ul {\\n  display: none !important;\\n}\\n\"]}]);\n\n\n//# sourceURL=webpack:///./css/global/commons.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
