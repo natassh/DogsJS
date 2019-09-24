@@ -13,7 +13,7 @@
 /******/ 	function hotDownloadUpdateChunk(chunkId) {
 /******/ 		var script = document.createElement("script");
 /******/ 		script.charset = "utf-8";
-/******/ 		script.src = __webpack_require__.p + "9061b8a-" + chunkId + "-wps-hmr.js";
+/******/ 		script.src = __webpack_require__.p + "adf77e4-" + chunkId + "-wps-hmr.js";
 /******/ 		if (null) script.crossOrigin = null;
 /******/ 		document.head.appendChild(script);
 /******/ 	}
@@ -27,7 +27,7 @@
 /******/ 			}
 /******/ 			try {
 /******/ 				var request = new XMLHttpRequest();
-/******/ 				var requestPath = __webpack_require__.p + "9061b8a-wps-hmr.json";
+/******/ 				var requestPath = __webpack_require__.p + "adf77e4-wps-hmr.json";
 /******/ 				request.open("GET", requestPath, true);
 /******/ 				request.timeout = requestTimeout;
 /******/ 				request.send(null);
@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "f43ae80569bb74a98828";
+/******/ 	var hotCurrentHash = "ee47be2ba2bed7310ba6";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -716,7 +716,7 @@
 /******/ 	function hotDownloadUpdateChunk(chunkId) {
 /******/ 		var script = document.createElement("script");
 /******/ 		script.charset = "utf-8";
-/******/ 		script.src = __webpack_require__.p + "9061b8a-" + chunkId + "-wps-hmr.js";
+/******/ 		script.src = __webpack_require__.p + "adf77e4-" + chunkId + "-wps-hmr.js";
 /******/ 		if (null) script.crossOrigin = null;
 /******/ 		document.head.appendChild(script);
 /******/ 	}
@@ -730,7 +730,7 @@
 /******/ 			}
 /******/ 			try {
 /******/ 				var request = new XMLHttpRequest();
-/******/ 				var requestPath = __webpack_require__.p + "9061b8a-wps-hmr.json";
+/******/ 				var requestPath = __webpack_require__.p + "adf77e4-wps-hmr.json";
 /******/ 				request.open("GET", requestPath, true);
 /******/ 				request.timeout = requestTimeout;
 /******/ 				request.send(null);
@@ -766,7 +766,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "f43ae80569bb74a98828";
+/******/ 	var hotCurrentHash = "ee47be2ba2bed7310ba6";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1688,7 +1688,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.i, \"body {\\n  margin: 0;\\n  padding: 0;\\n  position: relative;\\n  background-color: var(--bg-main);\\n  padding: 5rem 0rem;\\n}\\n.stack-on {\\n  background-color: grey;\\n  opacity: 0.5;\\n  filter: alpha(opacity=50);\\n}\\n.mc > ul {\\n  display: none !important;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"commons.css\"],\"names\":[],\"mappings\":\"AAAA;EACE,SAAS;EACT,UAAU;EACV,kBAAkB;EAClB,gCAAgC;EAChC,kBAAkB;AACpB;AACA;EACE,sBAAsB;EACtB,YAAY;EACZ,yBAAyB;AAC3B;AACA;EACE,wBAAwB;AAC1B\",\"file\":\"commons.css\",\"sourcesContent\":[\"body {\\n  margin: 0;\\n  padding: 0;\\n  position: relative;\\n  background-color: var(--bg-main);\\n  padding: 5rem 0rem;\\n}\\n.stack-on {\\n  background-color: grey;\\n  opacity: 0.5;\\n  filter: alpha(opacity=50);\\n}\\n.mc > ul {\\n  display: none !important;\\n}\\n\"]}]);\n\n\n//# sourceURL=webpack:///./css/global/commons.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.i, \"body {\\n  margin: 0;\\n  padding: 0;\\n  position: relative;\\n  background-color: var(--bg-main);\\n  padding: 5rem 0rem;\\n}\\n/*Marvina carousel css */\\n.mc > ul {\\n  display: none !important;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"commons.css\"],\"names\":[],\"mappings\":\"AAAA;EACE,SAAS;EACT,UAAU;EACV,kBAAkB;EAClB,gCAAgC;EAChC,kBAAkB;AACpB;AACA,wBAAwB;AACxB;EACE,wBAAwB;AAC1B\",\"file\":\"commons.css\",\"sourcesContent\":[\"body {\\n  margin: 0;\\n  padding: 0;\\n  position: relative;\\n  background-color: var(--bg-main);\\n  padding: 5rem 0rem;\\n}\\n/*Marvina carousel css */\\n.mc > ul {\\n  display: none !important;\\n}\\n\"]}]);\n\n\n//# sourceURL=webpack:///./css/global/commons.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
@@ -1699,7 +1699,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.i, \":root {\\n    --bg-main: #fff4ea;\\n    --color-second: #ff8071;\\n    --color-text: #020009;\\n    --color-title: #344ba6;\\n    --color-error: #d90714;\\n    \\n\\n    --main-font: 'Montserrat', sans-serif;\\n\\n    --bold: 700;\\n    --regular: 400;\\n    --light: 300;\\n}\", \"\",{\"version\":3,\"sources\":[\"global-var.css\"],\"names\":[],\"mappings\":\"AAAA;IACI,kBAAkB;IAClB,uBAAuB;IACvB,qBAAqB;IACrB,sBAAsB;IACtB,sBAAsB;;;IAGtB,qCAAqC;;IAErC,WAAW;IACX,cAAc;IACd,YAAY;AAChB\",\"file\":\"global-var.css\",\"sourcesContent\":[\":root {\\n    --bg-main: #fff4ea;\\n    --color-second: #ff8071;\\n    --color-text: #020009;\\n    --color-title: #344ba6;\\n    --color-error: #d90714;\\n    \\n\\n    --main-font: 'Montserrat', sans-serif;\\n\\n    --bold: 700;\\n    --regular: 400;\\n    --light: 300;\\n}\"]}]);\n\n\n//# sourceURL=webpack:///./css/global/global-var.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.i, \":root {\\n  --bg-main: #fff4ea;\\n  --color-second: #ff8071;\\n  --color-text: #020009;\\n  --color-title: #344ba6;\\n  --color-error: #d90714;\\n\\n  --main-font: 'Montserrat', sans-serif;\\n\\n  --bold: 700;\\n  --regular: 400;\\n  --light: 300;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"global-var.css\"],\"names\":[],\"mappings\":\"AAAA;EACE,kBAAkB;EAClB,uBAAuB;EACvB,qBAAqB;EACrB,sBAAsB;EACtB,sBAAsB;;EAEtB,qCAAqC;;EAErC,WAAW;EACX,cAAc;EACd,YAAY;AACd\",\"file\":\"global-var.css\",\"sourcesContent\":[\":root {\\n  --bg-main: #fff4ea;\\n  --color-second: #ff8071;\\n  --color-text: #020009;\\n  --color-title: #344ba6;\\n  --color-error: #d90714;\\n\\n  --main-font: 'Montserrat', sans-serif;\\n\\n  --bold: 700;\\n  --regular: 400;\\n  --light: 300;\\n}\\n\"]}]);\n\n\n//# sourceURL=webpack:///./css/global/global-var.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
@@ -1845,7 +1845,7 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/*\n  Copyright © 2018 Andrew Powell\n\n  This Source Code Form is subject to the terms of the Mozilla Public\n  License, v. 2.0. If a copy of the MPL was not distributed with this\n  file, You can obtain one at http://mozilla.org/MPL/2.0/.\n\n  The above copyright notice and this permission notice shall be\n  included in all copies or substantial portions of this Source Code Form.\n*/\n\n/**\n * @note This file exists merely as an easy reference for folks adding it to their configuration entries\n */\n\n(() => {\n  /* eslint-disable global-require */\n  const { run } = __webpack_require__(/*! ./lib/client/client */ \"./node_modules/webpack-plugin-serve/lib/client/client.js\");\n  let hash = '<unknown>';\n  let options;\n  try {\n    options = {\"compress\":null,\"headers\":null,\"historyFallback\":false,\"hmr\":true,\"host\":\"localhost\",\"liveReload\":true,\"log\":{\"level\":\"info\",\"prefix\":{\"template\":\"{{level}}\"},\"name\":\"webpack-plugin-serve\"},\"open\":true,\"port\":3001,\"progress\":true,\"ramdisk\":false,\"secure\":false,\"static\":[\"/Users/MacMini/ISIAT/WEBS/CLIENTES/NATACHA-CLIENTES/TALLER/Ejercicios/DogsJS\"],\"status\":true,\"address\":\"localhost:3001\",\"compilerName\":null,\"wpsId\":\"9061b8a\"};\n  } catch (e) {\n    const { log } = __webpack_require__(/*! ./lib/client/log */ \"./node_modules/webpack-plugin-serve/lib/client/log.js\");\n    log.error(\n      'The entry for webpack-plugin-serve was included in your build, but it does not appear that the plugin was. Please check your configuration.'\n    );\n  }\n\n  try {\n    // eslint-disable-next-line camelcase\n    hash = __webpack_require__.h();\n  } catch (e) {} // eslint-disable-line no-empty\n\n  run(hash, options);\n})();\n\n\n//# sourceURL=webpack:///(webpack)-plugin-serve/client.js?");
+eval("/*\n  Copyright © 2018 Andrew Powell\n\n  This Source Code Form is subject to the terms of the Mozilla Public\n  License, v. 2.0. If a copy of the MPL was not distributed with this\n  file, You can obtain one at http://mozilla.org/MPL/2.0/.\n\n  The above copyright notice and this permission notice shall be\n  included in all copies or substantial portions of this Source Code Form.\n*/\n\n/**\n * @note This file exists merely as an easy reference for folks adding it to their configuration entries\n */\n\n(() => {\n  /* eslint-disable global-require */\n  const { run } = __webpack_require__(/*! ./lib/client/client */ \"./node_modules/webpack-plugin-serve/lib/client/client.js\");\n  let hash = '<unknown>';\n  let options;\n  try {\n    options = {\"compress\":null,\"headers\":null,\"historyFallback\":false,\"hmr\":true,\"host\":\"localhost\",\"liveReload\":true,\"log\":{\"level\":\"info\",\"prefix\":{\"template\":\"{{level}}\"},\"name\":\"webpack-plugin-serve\"},\"open\":true,\"port\":3001,\"progress\":true,\"ramdisk\":false,\"secure\":false,\"static\":[\"/Users/MacMini/ISIAT/WEBS/CLIENTES/NATACHA-CLIENTES/TALLER/Ejercicios/DogsJS\"],\"status\":true,\"address\":\"localhost:3001\",\"compilerName\":null,\"wpsId\":\"adf77e4\"};\n  } catch (e) {\n    const { log } = __webpack_require__(/*! ./lib/client/log */ \"./node_modules/webpack-plugin-serve/lib/client/log.js\");\n    log.error(\n      'The entry for webpack-plugin-serve was included in your build, but it does not appear that the plugin was. Please check your configuration.'\n    );\n  }\n\n  try {\n    // eslint-disable-next-line camelcase\n    hash = __webpack_require__.h();\n  } catch (e) {} // eslint-disable-line no-empty\n\n  run(hash, options);\n})();\n\n\n//# sourceURL=webpack:///(webpack)-plugin-serve/client.js?");
 
 /***/ }),
 
@@ -2004,7 +2004,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"queryApi\", function() { return queryApi; });\nvar queryApi = function queryApi() {\n  var breedValue = document.getElementById('dog-selector').value;\n  var endPoint = 'https://dog.ceo/api/breed/' + breedValue + '/images/random/25'; //console.log(endPoint);\n\n  var responsePromise = fetch(endPoint);\n  var dataResponseJsonPromise = responsePromise.then(function (responseObjectData) {\n    return responseObjectData.json();\n  });\n  var dogs = dataResponseJsonPromise.then(function (dataResponse) {\n    return dataResponse;\n  });\n  /* eslint-disable no-console */\n\n  dataResponseJsonPromise[\"catch\"](function (error) {\n    return console.log(error);\n  });\n  return dogs;\n};\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/photos/service/api.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"queryApi\", function() { return queryApi; });\nvar queryApi = function queryApi() {\n  var breedValue = document.getElementById('dog-selector').value;\n  var endPoint = 'https://dog.ceo/api/breed/' + breedValue + '/images/random/25';\n  var responsePromise = fetch(endPoint);\n  var dataResponseJsonPromise = responsePromise.then(function (responseObjectData) {\n    return responseObjectData.json();\n  });\n  var dogs = dataResponseJsonPromise.then(function (dataResponse) {\n    return dataResponse;\n  });\n  dataResponseJsonPromise[\"catch\"](function (error) {\n    return error;\n  });\n  return dogs;\n};\n\n\n\n//# sourceURL=webpack:///./src/modules/dogs/photos/service/api.js?");
 
 /***/ }),
 

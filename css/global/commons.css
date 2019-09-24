@@ -5,11 +5,7 @@ body {
   background-color: var(--bg-main);
   padding: 5rem 0rem;
 }
-.stack-on {
-  background-color: grey;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
+/*Marvina carousel css */
 .mc > ul {
   display: none !important;
 }
