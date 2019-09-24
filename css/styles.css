@@ -5,7 +5,7 @@
 
 @import 'components/atoms/logo__title.css';
 @import 'components/atoms/image-logo.css';
-@import 'components/atoms/label-title.css';
+@import 'components/atoms/form__label.css';
 @import 'components/atoms/select.css';
 @import 'components/atoms/btn-submit.css';
 @import 'components/atoms/list-item.css';

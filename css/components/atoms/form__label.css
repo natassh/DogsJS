@@ -1,0 +1,7 @@
+.form__label {
+  color: var(--color-title);
+  font-size: 1.3rem;
+  font-family: var(--main-font);
+  font-weight: var(--regular);
+  margin-right: 1rem;
+}
