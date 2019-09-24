@@ -1,4 +1,5 @@
 import Carousel from 'marvina-carousel';
+import './listPhotos.css';
 
 const showPhotos = photos => {
   document.querySelector('.list-photos').innerHTML = '';
