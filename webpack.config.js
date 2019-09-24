@@ -4,12 +4,12 @@ const { WebpackPluginServe: Serve } = require('webpack-plugin-serve');
 const postcssPresetEnv = require('postcss-preset-env');
 const webpack = require('webpack');
 
-const publicDir = 'salida';
+const publicDir = 'build';
 
 module.exports = {
   mode: process.env.mode || 'development',
   entry: {
-    natacha: './src/pages/home.js'
+    bundle: './src/pages/home.js'
     // ['eventos-aaa']: './src/pages/event.js',
   },
   output: {
