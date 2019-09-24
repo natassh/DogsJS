@@ -1,9 +1,10 @@
-import { queryApi } from './service/api.js';
+import { getDogsPhotosByBreedName } from './service/api.js';
 import { showPhotos } from './ui/listPhotos.js';
 
 const getPhotosDogs = async () => {
-  let dogs = await queryApi();
+  const breedValue = document.getElementById('dog-selector').value;
+  let dogs = await getDogsPhotosByBreedName(breedValue);
   showPhotos(dogs);
 };
 
-export { getPhotosDogs, queryApi };
+export { getPhotosDogs, getDogsPhotosByBreedName };

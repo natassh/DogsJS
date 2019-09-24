@@ -1,5 +1,4 @@
-const queryApi = () => {
-  const breedValue = document.getElementById('dog-selector').value;
+const getDogsPhotosByBreedName = breedValue => {
   const endPoint =
     'https://dog.ceo/api/breed/' + breedValue + '/images/random/25';
   const responsePromise = fetch(endPoint);
@@ -11,4 +10,4 @@ const queryApi = () => {
   return dogs;
 };
 
-export { queryApi };
+export { getDogsPhotosByBreedName };
