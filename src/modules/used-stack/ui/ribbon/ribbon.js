@@ -3,7 +3,7 @@ import { showModal } from '../modal/modal.js';
 import './ribbon.css';
 import '../modal/modal.css';
 
-const stackInit = () => {
+const usedStackInit = () => {
   showRibbon();
 };
 
@@ -29,4 +29,4 @@ const showRibbon = () => {
   });
 };
 
-export { stackInit };
+export { usedStackInit };

@@ -1,3 +1,3 @@
-import { stackInit } from './ui/ribbon/ribbon.js';
+import { usedStackInit } from './ui/ribbon/ribbon.js';
 
-export { stackInit };
+export { usedStackInit };
