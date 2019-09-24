@@ -1,3 +1,7 @@
-import { usedStackInit } from './ui/ribbon/ribbon.js';
+import { showRibbon } from './ui/ribbon/ribbon.js';
+
+const usedStackInit = () => {
+  showRibbon();
+};
 
 export { usedStackInit };

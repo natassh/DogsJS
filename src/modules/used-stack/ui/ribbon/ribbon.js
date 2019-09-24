@@ -1,11 +1,5 @@
 import { showModal } from '../modal/modal.js';
-
 import './ribbon.css';
-//import '../modal/modal.css';
-
-const usedStackInit = () => {
-  showRibbon();
-};
 
 const showRibbon = () => {
   const aside = document.createElement('aside');
@@ -29,4 +23,4 @@ const showRibbon = () => {
   });
 };
 
-export { usedStackInit };
+export { showRibbon };
