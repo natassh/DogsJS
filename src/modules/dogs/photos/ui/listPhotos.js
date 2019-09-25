@@ -3,6 +3,7 @@ import './listPhotos.css';
 
 const showPhotos = photos => {
   createAndAddSectionContainer();
+  document.querySelector('.list-photos').innerHTML = '';
   showPhotosInPage(photos);
 };
 

@@ -5,3 +5,14 @@
   font-weight: var(--regular);
   margin-right: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .form__label {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .form__label {
+    margin-bottom: 0.8rem;
+  }
+}

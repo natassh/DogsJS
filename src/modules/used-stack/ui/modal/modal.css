@@ -103,3 +103,19 @@
 .link-web:hover {
   color: #ff8080;
 }
+
+@media screen and (max-width: 768px) {
+  .modal__container {
+    width: 90%;
+    position: relative;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  .modal__title {
+    font-size: 1.1rem;
+  }
+  .modal__content h3 {
+    font-size: 1rem;
+  }
+}

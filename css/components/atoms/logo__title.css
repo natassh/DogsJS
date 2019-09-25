@@ -9,3 +9,19 @@
   text-transform: uppercase;
   margin-right: 0.3rem;
 }
+
+@media screen and (max-width: 768px) {
+  .logo__title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .logo__title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 465px) {
+  .logo__title {
+    font-size: 1.2rem;
+  }
+}

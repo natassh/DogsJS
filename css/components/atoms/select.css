@@ -25,3 +25,14 @@
 .ss-main .ss-single-selected .placeholder {
   color: var(--color-title);
 }
+
+@media screen and (max-width: 768px) {
+  .ss-main .ss-single-selected {
+    height: 2.3rem !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  .form__select {
+    width: 60% !important;
+  }
+}
