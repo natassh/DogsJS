@@ -1,5 +1,7 @@
 import { loadBreedsOptions } from './service/api.js';
 
-export {
-    loadBreedsOptions
+const initBreedOptions = () => {
+  loadBreedsOptions();
 };
+
+export { initBreedOptions };
