@@ -5,6 +5,9 @@
   top: 0;
   left: 0;
   z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .modal:before {
   display: block;
@@ -19,12 +22,11 @@
 }
 .modal__container {
   background-color: #fff;
-  width: 31.25rem;
+  max-width: 31.25rem;
+  box-sizing: border-box;
   height: 33rem;
   border-radius: 5px;
-  position: absolute;
-  top: calc((100% - 500px) / 2);
-  left: calc((100% - 500px) / 2);
+  position: relative;
   padding: 1rem;
   overflow: scroll;
 }
@@ -105,17 +107,16 @@
 }
 
 @media screen and (max-width: 768px) {
-  .modal__container {
-    width: 90%;
-    position: relative;
-    height: 100%;
-    left: 0;
-    top: 0;
-  }
   .modal__title {
     font-size: 1.1rem;
   }
   .modal__content h3 {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .modal__container {
+    max-width: 75%;
   }
 }
